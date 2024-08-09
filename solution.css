@@ -2,7 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
 
     background-color: dimgray;
-    background-image: url("./assets/images/back.jpg");
+    background-image: url("./assets/images/backk.jpg");
     background-repeat: no-repeat;
     background-size:  cover;
     display: flex;
@@ -18,6 +18,56 @@ h1 {
     color: grey;
     text-align: center;
 }
+.flashy-text {
+    text-align: center;
+    color: white;
+    border: 2px solid pink;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: mediumvioletred;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+    .flashy-text:hover {
+        background-color: hotpink;
+        border-color: hotpink;
+        transform: scale(1.05);
+    }
+
+    .flashy-text:active {
+        background-color: mediumvioletred;
+        border-color: mediumvioletred;
+        transform: scale(1.02);
+    }
+
+
+.flashy-button {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+
+    .flashy-button:hover {
+        background-color: hotpink;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        transform: scale(1.1);
+    }
+
+    .flashy-button:active {
+        background-color: mediumvioletred;
+        transform: scale(1.05);
+    }
 
 
 h3 {
@@ -83,7 +133,7 @@ footer {
     body {
         font-family: "Poppins", sans-serif;
         background-color: dimgray;
-        background-image: url("./assets/images/bwlies.jpg");
+        background-image: url("./assets/images/backk.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
