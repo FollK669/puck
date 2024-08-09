@@ -1,0 +1,151 @@
+body {
+    font-family: "Poppins", sans-serif;
+
+    background-color: dimgray;
+    background-image: url("./assets/images/back.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+    font-size: 5rem;
+    color: grey;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 2rem;
+    color: grey;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    font-size: 2rem;
+    white-space:  break-spaces;
+}
+
+footer {
+  text-align: right;
+  color: darkred;
+  font-size: 0.5rem;
+}
+
+.footy
+{
+    text-align: center;
+    color: deeppink;
+    font-size: 1rem;
+}
+
+.tile-image {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: darkred;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media (max-width: 680px) {
+
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: dimgray;
+        background-image: url("./assets/images/bwlies.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh;
+    }
+
+
+    .logo {
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+    h3 {
+        font-size: 1.5rem;
+        color: grey;
+        text-align: center;
+    }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 980px) {
+
+    .tile-image {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 250px;
+        height: 350px;
+        width: 580px;
+        float: left;
+        margin-right: 50px;
+    }
+
+
+}
+
+@media (min-width: 1380px) {
+
+    .tile-image {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 250px;
+        height: 500px;
+        width: 760px;
+        float: left;
+        margin-right: 50px;
+    }
+}
